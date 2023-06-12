@@ -1,0 +1,55 @@
+.navbar {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.group-navbar {
+  list-style-type: none;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  text-decoration: none;
+  margin-right: 20px;
+  text-align: center;
+  width: 500px;
+}
+
+.active {
+  color: #fef08a;
+}
+
+.homepage {
+  text-align: center;
+  width: 300px;
+}
+
+.search {
+  text-align: right;
+  width: 500px;
+}
+
+.btn-search {
+  padding: 0;
+  width: 40px;
+  height: 60px;
+  clip-path: circle(19px at 50% 50%);
+}
+
+.btn-bar {
+  padding: 0;
+  width: 40px;
+  height: 60px;
+  clip-path: circle(19px at 50% 50%);
+}
